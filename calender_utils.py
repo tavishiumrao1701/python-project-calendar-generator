@@ -22,7 +22,7 @@ def get_days_in_month(month, year):
     """
     Returns the number of days in the specified month, adjusting for leap years.
     """
-    # Check for February in a leap year
+    #  February in a leap year(check)
     if month == 2 and is_leap(year):
         return 29
     # Return days for other months
@@ -48,5 +48,6 @@ def get_start_day(month, year):
     # Zeller's Congruence: (0=Sat, 1=Sun, ..., 6=Fri)
     h = (q + (13 * (m + 1)) // 5 + K + K // 4 + J // 4 - 2 * J) % 7
 
-    # Convert Zeller's result to ISO 8601 standard (Monday=0, Sunday=6)
+    
+
     return (h + 5) % 7
