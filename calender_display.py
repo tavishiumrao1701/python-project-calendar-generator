@@ -16,22 +16,21 @@ def print_calendar(month, year):
     print("Mo Tu We Th Fr Sa Su")
     print("--------------------")
 
-    # Print leading spaces (indentation for the first day)
     print("   " * start_day_index, end="")
 
     day_counter = start_day_index # position in the current week (0-6) track that 
 
     
     for day in range(1, num_days + 1):
-        # f"{day:2d}" ensures uniform width for single and double-digit days
         print(f"{day:2d}", end=" ")
 
         day_counter += 1
 
-        #  if the week is complete ur not check 
+        #  if the week is complete or not, check 
         if day_counter % 7 == 0:
-            print() # Start a new line
+            print() 
             day_counter = 0
 
 
     print("\n") 
+
