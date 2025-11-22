@@ -62,3 +62,7 @@ Century Exception: Input Month 2, Year 1900 (Expected: 28 days, as 1900 is not d
 Start Day Check: Input Month 12, Year 2024 (Expected: December 1st, 2024 is a Sunday, so the calendar starts on the last position of the first row).
 
 Error Handling: Input 13 for the month (Expected: Error message).
+
+## Screenshots of results :-
+<img width="436" height="271" alt="Screenshot 2025-11-22 230333" src="https://github.com/user-attachments/assets/6c5596bf-afb6-4ee9-99a3-c38c5f79d184" />
+
