@@ -8,13 +8,13 @@ def main():
     print("=== Modular Command-Line Calendar Generator ===")
 
     try:
-        # 1. Get User Input
+        # get input from user
         month = int(input("Enter month (1-12): "))
         year = int(input("Enter year (e.g., 2025): "))
 
-        # 2. Input Validation
+        
         if 1 <= month <= 12 and year > 0:
-            # 3. Call the Display Module to generate the calendar
+            #  Call the Display Module 
             calender_display.print_calendar(month, year)
         else:
             print("Error: Month must be between 1 and 12, and Year must be a positive integer.")
@@ -22,9 +22,10 @@ def main():
     except ValueError:
         print("Error: Invalid input. Please enter valid integer numbers for month and year.")
     except Exception as e:
-        # General catch for any unexpected errors
+        
         print(f"An unexpected error occurred: {e}")
 
 if __name__ == "__main__":
-    # The application starts here
+    
+
     main()
