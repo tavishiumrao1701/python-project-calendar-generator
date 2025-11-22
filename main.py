@@ -1,6 +1,5 @@
-import calender_display # Handles printing
-import calender_utils   # Handles calculations
-
+import calender_display 
+import calender_utils   
 def main():
     """
     The main execution function. Handles user input, validation, and orchestration.
@@ -14,7 +13,7 @@ def main():
 
         
         if 1 <= month <= 12 and year > 0:
-            #  Call the Display Module 
+            
             calender_display.print_calendar(month, year)
         else:
             print("Error: Month must be between 1 and 12, and Year must be a positive integer.")
@@ -29,3 +28,4 @@ if __name__ == "__main__":
     
 
     main()
+
