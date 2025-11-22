@@ -19,18 +19,19 @@ def print_calendar(month, year):
     # Print leading spaces (indentation for the first day)
     print("   " * start_day_index, end="")
 
-    day_counter = start_day_index # Tracks position in the current week (0-6)
+    day_counter = start_day_index # position in the current week (0-6) track that 
 
-    # Print days of the month
+    
     for day in range(1, num_days + 1):
         # f"{day:2d}" ensures uniform width for single and double-digit days
         print(f"{day:2d}", end=" ")
 
         day_counter += 1
 
-        # Check if the week is complete
+        #  if the week is complete ur not check 
         if day_counter % 7 == 0:
             print() # Start a new line
             day_counter = 0
 
-    print("\n") # Final newline for spacing
+
+    print("\n") 
