@@ -39,8 +39,7 @@ Since this project uses only the standard Python library, no installation is req
 
 Save all three files (main.py, calendar_display.py, calendar_utils.py) into the same directory.
 
-git clone [https://github.com/YourUsername/modular-calendar-generator.git](https://github.com/YourUsername/modular-calendar-generator.git)
-cd modular-calendar-generator
+(https://github.com/tavishiumrao1701/python-project-calendar-generator/tree/main)
 
 
 Run the Main Script: (Always run the main.py file to start the application)
